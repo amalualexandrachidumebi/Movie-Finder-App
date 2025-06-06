@@ -32,6 +32,7 @@ const Header = ({
         <option value="Drama">Drama</option>
         <option value="Horror">Horror</option>
         <option value="Romance">Romance</option>
+        <option value="Adventure">Adventure</option>
       </select>
 
       <input

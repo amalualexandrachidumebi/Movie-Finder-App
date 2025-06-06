@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Header from "./component/Header";
 import MovieList from "./component/MovieList";
 import MovieDetail from "./component/MovieDetail";
+import Spinner from "./component/Spinner"; 
 
 
 const App = () => {
@@ -80,7 +81,9 @@ const App = () => {
       />
 
        {loading && <p>Loading movies...</p>}
-       {!loading && <MovieList movies={filteredMovies} onSelect={setSelectedMovie}/>}
+       {loading && <Spinner />}
+       {!loading && <MovieList movies={filteredMovies} onSelect={setSelectedMovie}
+/>}
        {loading && <p className="loading">Loading movies... 🍿</p>}
        {!loading && filteredMovies.length === 0 && (
   <p className="no-results">No movies found </p>

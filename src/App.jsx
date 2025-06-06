@@ -69,7 +69,7 @@ const App = () => {
 
   return (
     <div className="app-container">
-      <h1 className="app-title">🎬 Movie Finder App</h1>
+      <h1 className="app-title">🎬 Movieque</h1>
       <Header 
         searchTerm={searchTerm}
         setSearchTerm={setSearchTerm}

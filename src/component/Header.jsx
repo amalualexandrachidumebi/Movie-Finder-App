@@ -13,11 +13,12 @@ const Header = ({
     <div className="header">
       <header className="header">
       <div className="brand">
-        <img
-          src="/public/Movieque.png"
-          alt="Movique Logo"
-          className="logo"
-        />
+       <img
+         src="/Movieque.png"
+         alt="Movique Logo"
+         className="logo"
+       />
+
         <h1 className="brand-name">Movique</h1>
       </div>
     </header>

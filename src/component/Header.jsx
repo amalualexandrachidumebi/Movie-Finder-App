@@ -14,7 +14,7 @@ const Header = ({
       <header className="header">
       <div className="brand">
         <img
-          src="/movique-logo.png"
+          src="/public/Movieque.png"
           alt="Movique Logo"
           className="logo"
         />

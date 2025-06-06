@@ -11,6 +11,16 @@ const Header = ({
 }) => {
   return (
     <div className="header">
+      <header className="header">
+      <div className="brand">
+        <img
+          src="/movique-logo.png"
+          alt="Movique Logo"
+          className="logo"
+        />
+        <h1 className="brand-name">Movique</h1>
+      </div>
+    </header>
       <input
         type="text"
         placeholder="Search movies..."

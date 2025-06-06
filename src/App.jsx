@@ -84,7 +84,7 @@ const App = () => {
        {loading && <Spinner />}
        {!loading && <MovieList movies={filteredMovies} onSelect={setSelectedMovie}
 />}
-       {loading && <p className="loading">Loading movies... 🍿</p>}
+       {loading && <p className="loading">Loading movies...</p>}
        {!loading && filteredMovies.length === 0 && (
   <p className="no-results">No movies found </p>
 )}
